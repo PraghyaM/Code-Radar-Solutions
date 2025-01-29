@@ -5,5 +5,5 @@ int main()
     char str[100];
     scanf("%s",&str);
     printf("You entered: ",str);
-    retyrn 0;
+    return 0;
 }
