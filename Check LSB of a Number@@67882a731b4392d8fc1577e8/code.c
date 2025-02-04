@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main()
 [
-    int a,ans;
+    int a;
     scanf("%d",&a);
-    ans = a && 1;
-    printf("%d",ans);
+    if(a & 1 == 1){
+        printf("Set");
+    }
+    else{
+        printf("Not Set");
+    }
     return 0;
 ]
