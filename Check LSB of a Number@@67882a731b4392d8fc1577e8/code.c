@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 [
-    int a;
+    int a,ans;
     scanf("%d",&a);
-    printf("%d", a & 1);
+    ans = a & 1;
+    printf("%d", ans);
     return 0;
 ]
