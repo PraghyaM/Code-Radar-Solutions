@@ -3,7 +3,7 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    if(a & 0x80000000){
+    if(a>>31)&1{
         printf("Set");
     }
     else{
