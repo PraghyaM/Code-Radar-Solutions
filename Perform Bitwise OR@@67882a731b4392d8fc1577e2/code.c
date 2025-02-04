@@ -4,7 +4,6 @@ int main()
     int a,b,ans;
     scanf("%d",&a);
     scanf("%d",&b);
-    ans = a|b;
-    printf("%d",ans);
+    printf("%d",a|b);
     return 0;
 }
