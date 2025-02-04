@@ -6,8 +6,11 @@ int main()
     if(a>b){
         printf("%d",a);
     }
-    if(b>a){
+    else if(b>a){
         printf("%d",b);
+    }
+    else if(a==0 && b==0){
+        printf("0");
     }
     return 0;
 }
