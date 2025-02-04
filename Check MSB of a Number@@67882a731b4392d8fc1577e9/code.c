@@ -3,7 +3,7 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    if(a*80000000==1){
+    if(a & 0*80000000==1){
         printf("Set");
     }
     else{
