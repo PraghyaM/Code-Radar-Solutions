@@ -2,7 +2,7 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    switch(ch);
+    switch(ch){
     case 'R':
     printf("Stop");
     break;
@@ -14,5 +14,6 @@ int main(){
     break;
     default:
     printf("Invalid input");
+    }
     return 0;
 }
