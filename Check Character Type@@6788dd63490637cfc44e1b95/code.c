@@ -3,7 +3,7 @@
 int main()
 {
     char yoo;
-    scanf("%c",&yoo)
+    scanf("%c",&yoo);
     if (yoo == 'a' || yoo == 'e' || yoo == 'i' || yoo == 'o' || yoo == 'u' || 
         yoo == 'A' || yoo == 'E' || yoo == 'I' || yoo == 'O' || yoo == 'U') {
         printf("%c", yoo);
