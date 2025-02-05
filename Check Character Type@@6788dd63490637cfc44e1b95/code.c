@@ -11,7 +11,7 @@ int main()
         printf("Digit");
     }
     else if ((yoo >= 'a' && yoo <= 'z') || (yoo >= 'A' && yoo <= 'Z')) {
-        printf("%c is a consonant.\n", ch);
+        printf("%c", yoo);
     }
     else{
         printf("Special character");
