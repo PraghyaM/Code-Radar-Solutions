@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 int main()
 {
     char yoo;
@@ -8,7 +7,7 @@ int main()
         yoo == 'A' || yoo == 'E' || yoo == 'I' || yoo == 'O' || yoo == 'U') {
         printf("Vowel");
     }
-    else if(isdigit(yoo)){
+    else if(yoo >= 0 && yoo <= 9){
         printf("Digit");
     }
     else if ((yoo >= 'a' && yoo <= 'z') || (yoo >= 'A' && yoo <= 'Z')) {
