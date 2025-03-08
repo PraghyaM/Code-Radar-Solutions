@@ -14,7 +14,7 @@ int main()
         }
         printf("\n");
         nsp=nsp-1;
-        nst=nst+2;
+        nst=nst+1;
     }
     return 0;
 }
