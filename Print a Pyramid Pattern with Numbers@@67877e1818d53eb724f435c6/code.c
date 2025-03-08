@@ -13,7 +13,7 @@ int main()
             printf("%d",k);
         }
         printf("\n");
-        nst=nst+2;
+        nst=nst+1;
         nsp=nsp-1;
     }
     return 0;
