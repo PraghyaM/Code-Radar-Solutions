@@ -2,7 +2,7 @@
 int main()
 {
     struct student{
-        int roll_no;
+        int rollno;
         char name[50];
         float marks;
     };
@@ -10,12 +10,12 @@ int main()
     int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        scanf("%d",&stud[i].roll_no);
+        scanf("%d",&stud[i].rollno);
         scanf("%s",&stud[i].name);
         scanf("%f",&stud[i].marks);
     }
     for(int i=0;i<n;i++){
-        printf("Roll Number: %d, "stud[i].roll_no);
+        printf("Roll Number: %d, "stud[i].rollno);
         printf("Name: %s, "stud[i].name);
         printf("Marks: %2f\n"stud[i].marks);
     }   
