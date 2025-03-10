@@ -12,7 +12,7 @@ int main() {
     scanf("%d", &n);
 
     struct Student students[n], topScorer; // Fixed: Correct spelling
-    printf("Enter Roll Number, Name, and Marks for each student:\n");
+   
 
     for (int i = 0; i < n; i++) {
         scanf("%d %s %f", &students[i].rollNumber, students[i].name, &students[i].marks);
@@ -22,9 +22,9 @@ int main() {
         }
     }
 
-    printf("\nTop Scorer:\n");
-    printf("Roll Number: %d\n", topScorer.rollNumber);
-    printf("Name: %s\n", topScorer.name);
+    printf("Top Scorer:");
+    printf("Roll Number: %d, ", topScorer.rollNumber);
+    printf("Name: %s, ", topScorer.name);
     printf("Marks: %.2f\n", topScorer.marks); // Fixed: Correct variable name
 
     return 0;
