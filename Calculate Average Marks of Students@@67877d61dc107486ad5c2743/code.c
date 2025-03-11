@@ -14,16 +14,15 @@ int main() {
     struct Student students[n];
 
     for (int i = 0; i < n; i++) {
-        printf("%d\n", i + 1);
         scanf("%d", &students[i].roll_number);
-        getchar(); 
+        getchar();  
         fgets(students[i].name, sizeof(students[i].name), stdin);
         scanf("%f", &students[i].marks);
 
         total_marks += students[i].marks;
     }
 
-    printf("%.2f\n", total_marks / n);
+    printf("Average Marks: %.2f\n", total_marks / n); 
 
     return 0;
 }
