@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 struct Student {
     int roll_number;
@@ -15,14 +16,13 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         scanf("%d", &students[i].roll_number);
-        getchar();  
-        fgets(students[i].name, sizeof(students[i].name), stdin);
+        scanf(" %[^\n]", students[i].name);  // This will correctly read the full name
         scanf("%f", &students[i].marks);
 
         total_marks += students[i].marks;
     }
 
-    printf("Average Marks: %.2f\n", total_marks / n); 
+    printf("Average Marks: %.2f\n", total_marks / n);  // Correct output format
 
     return 0;
 }
