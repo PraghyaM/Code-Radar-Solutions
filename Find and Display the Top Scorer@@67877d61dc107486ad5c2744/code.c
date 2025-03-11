@@ -8,7 +8,6 @@ struct Student {
 
 int main() {
     int n;
-    printf("Enter the number of students: ");
     scanf("%d", &n);
 
     struct Student students[n], topScorer; 
