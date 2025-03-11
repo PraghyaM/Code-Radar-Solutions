@@ -21,7 +21,7 @@ int main() {
         }
     }
 
-    printf("Top Scorer:");
+    printf("Top Scorer: ");
     printf("Roll Number: %d, ", topScorer.rollNumber);
     printf("Name: %s, ", topScorer.name);
     printf("Marks: %.2f\n", topScorer.marks); 
