@@ -16,7 +16,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         scanf("%d", &students[i].roll_number);
-        scanf(" %[^\n]", students[i].name);  // This will correctly read the full name
+        scanf("%s", students[i].name);  // This will correctly read the full name
         scanf("%f", &students[i].marks);
 
         total_marks += students[i].marks;
