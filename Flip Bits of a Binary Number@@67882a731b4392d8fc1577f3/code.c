@@ -1,21 +1,21 @@
 #include <stdio.h>
 
+// Function to perform bitwise NOT operation and return the flipped number
+int flipBits(int n) {
+    return ~n;
+}
+
 int main() {
-    unsigned int n;
-    scanf("%u", &n);
+    int num;
 
-    int count = 0;
+    // Get the number from the user
+    scanf("%d", &num);
 
-    if (n == 0) {
-        printf("32\n"); // for 32-bit numbers, all bits are 0
-        return 0;
-    }
+    // Perform bitwise NOT operation
+    int flippedNum = flipBits(num);
 
-    while ((n & 1) == 0) {
-        n >>= 1;
-        count++;
-    }
+    // Print the result
+    printf("%d\n", flippedNum);
 
-    printf("%d\n", count);
     return 0;
 }
